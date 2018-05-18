@@ -1,0 +1,86 @@
+RELEASE NOTES
+20170728
+	Additions
+	-Vr menu added
+	-Vr tutorial added
+	-Minor fixes for scene loading
+20170630
+	Changes
+	-optional toggles on the settings screen
+	-slider now go from 0 - 10
+	-new parallax slider
+20170623
+	Changes
+	-ctrl-g is now a shortcut for taking a page preview
+	-removed logo from default additivemenu
+	-turned off fps conter by default
+	-additive scene transitions actually work now
+	-save state now works with additive scenes
+	-parallax now has a max value
+	-got rid of space theme folder in start prefab
+	-move lerp now responds to duration and not speed
+	-darg lerp now works even when you release tap while dragging
+	-language dropdown works
+	-audio sliders work
+
+	Additions
+	-parallax now can trigger events using the parallax trigger component
+	-vibration is now a feature for xbox controllers and phones, using the vibrationevent component
+	-parallax can now have rotation
+	-tutorial added for first time users of the app
+
+20170525
+	Changes
+	-Parallax now has axis multipliers to control x and y parallaxing seperate
+	-Parallax can now have rotation
+	-Nested masks are now possible
+	-Layers nested inside each other keep their parallax value
+	-Override page now has fov and page tilt overrides
+	-Sort by name removed
+	-In single scene projects, you can remember the last page your were on if you check the bool in PageEventsManager on the Main Folder
+	Improvements
+	-On departure works more consistently
+	-Importing PSD now shows the filenames
+	-Double taps and holding a direction now wont trigger till you get to a page
+	Imported audio now goes into an audio folder
+
+20170327
+	Changes
+	-Update Pages updates x and y, but not z coordinate
+	Improvements
+	-When you update localization data, it prompts you to set empty internal_ids
+20170323
+	Changes
+	-rearrangeWindow
+20170315
+	Improvements
+		- Progress Meter On Creating Pages from PSDS
+		- SkyBox Fade has been enhanced
+		- UNITY IAP has been added
+		- Panel Transition Fade's correctly
+		- Basic Funcitonality for Scene transitions
+	Changes
+	Fixes
+	- Panel Fade works with TextMeshProTextUGUI
+	- Make Panel Fade's time more accurate
+	- Remove listeners on DisbaleAtDistFromCamera
+	- CMD+SHIFT+W forces a veiw update
+	- Reflection Probe Works
+	- Page Update Issue
+20170307
+	Improvements
+		- Update Image Import Settings added 
+		- About Me added
+		- Set Mobile Friendly Settings added to menu for bulk changes 
+		- Better feedback on Update pages and Initialize Camera
+		- Update 3rd Party Plugin and associated code
+		- Create features for use with OBB on android
+		- Use Sprite packer
+		- Disable pages at distance from camera
+	Changes
+		- Forward rendering selected
+		- Disabled reflection Probe and cameraFX by default for better mobile performance
+	Fixes
+20160802
+	Improvements
+		- Base

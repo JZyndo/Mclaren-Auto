@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1732b7ec3eea9624b878a0db9a9311b3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - passedFont: {fileID: 12800000, guid: 664ebfcef8b390d478e9a49fd5cc3970, type: 3}
+  - deleteButton: {fileID: 2800000, guid: 1086465840f12764e8f380fa168c1d98, type: 3}
+  - addButton: {fileID: 2800000, guid: 4deb5ab20af64ac4f82b07947c9d57b0, type: 3}
+  - editButton: {fileID: 2800000, guid: 787d401bd64499149ba443f100962584, type: 3}
+  - checkedButton: {fileID: 2800000, guid: d45976b4221807d4cba2d4205dbb7b48, type: 3}
+  - uncheckedButton: {fileID: 2800000, guid: 8091aaa606057024792727bc7a5db7d0, type: 3}
+  - applyButton: {fileID: 2800000, guid: 49df13114d2f1194787e6a19cd819ba2, type: 3}
+  - cancelButton: {fileID: 2800000, guid: ee0883a8d41b51b4385ad1ee92ba0876, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
